@@ -61,6 +61,7 @@
 		11F85DAD15E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11F85DAF15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPullToRefreshTableViewControllerDemoTests.h; sourceTree = "<group>"; };
 		11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPullToRefreshTableViewControllerDemoTests.m; sourceTree = "<group>"; };
+		11F85DBA15E2530000A2554A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		11F85D6A15E252EB00A2554A = {
 			isa = PBXGroup;
 			children = (
+				11F85DBA15E2530000A2554A /* .gitignore */,
 				11F85D7F15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */,
 				11F85DA915E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */,
 				11F85D7815E252EB00A2554A /* Frameworks */,
