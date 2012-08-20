@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F85D7A15E252EB00A2554A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7915E252EB00A2554A /* UIKit.framework */; };
+		11F85D7C15E252EB00A2554A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7B15E252EB00A2554A /* Foundation.framework */; };
+		11F85D7E15E252EB00A2554A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7D15E252EB00A2554A /* CoreGraphics.framework */; };
+		11F85D8415E252EB00A2554A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F85D8215E252EB00A2554A /* InfoPlist.strings */; };
+		11F85D8615E252EB00A2554A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D8515E252EB00A2554A /* main.m */; };
+		11F85D8A15E252EB00A2554A /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D8915E252EB00A2554A /* PPAppDelegate.m */; };
+		11F85D8D15E252EB00A2554A /* PPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D8C15E252EB00A2554A /* PPMasterViewController.m */; };
+		11F85D9015E252EB00A2554A /* PPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D8F15E252EB00A2554A /* PPDetailViewController.m */; };
+		11F85D9315E252EB00A2554A /* PPMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F85D9115E252EB00A2554A /* PPMasterViewController_iPhone.xib */; };
+		11F85D9615E252EB00A2554A /* PPMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F85D9415E252EB00A2554A /* PPMasterViewController_iPad.xib */; };
+		11F85D9915E252EB00A2554A /* PPDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F85D9715E252EB00A2554A /* PPDetailViewController_iPhone.xib */; };
+		11F85D9C15E252EB00A2554A /* PPDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F85D9A15E252EB00A2554A /* PPDetailViewController_iPad.xib */; };
+		11F85DA415E252EB00A2554A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85DA315E252EB00A2554A /* SenTestingKit.framework */; };
+		11F85DA515E252EB00A2554A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7915E252EB00A2554A /* UIKit.framework */; };
+		11F85DA615E252EB00A2554A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7B15E252EB00A2554A /* Foundation.framework */; };
+		11F85DAE15E252EB00A2554A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F85DAC15E252EB00A2554A /* InfoPlist.strings */; };
+		11F85DB115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F85DA715E252EB00A2554A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F85D6C15E252EB00A2554A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F85D7415E252EB00A2554A;
+			remoteInfo = PPPullToRefreshTableViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F85D7515E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPPullToRefreshTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F85D7915E252EB00A2554A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11F85D7B15E252EB00A2554A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11F85D7D15E252EB00A2554A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11F85D8115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPPullToRefreshTableViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		11F85D8315E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F85D8515E252EB00A2554A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F85D8715E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPPullToRefreshTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		11F85D8815E252EB00A2554A /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		11F85D8915E252EB00A2554A /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		11F85D8B15E252EB00A2554A /* PPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPMasterViewController.h; sourceTree = "<group>"; };
+		11F85D8C15E252EB00A2554A /* PPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPMasterViewController.m; sourceTree = "<group>"; };
+		11F85D8E15E252EB00A2554A /* PPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPDetailViewController.h; sourceTree = "<group>"; };
+		11F85D8F15E252EB00A2554A /* PPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPDetailViewController.m; sourceTree = "<group>"; };
+		11F85D9215E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		11F85D9515E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		11F85D9815E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		11F85D9B15E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		11F85DA215E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPPullToRefreshTableViewControllerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F85DA315E252EB00A2554A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		11F85DAB15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPPullToRefreshTableViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		11F85DAD15E252EB00A2554A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F85DAF15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPullToRefreshTableViewControllerDemoTests.h; sourceTree = "<group>"; };
+		11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPullToRefreshTableViewControllerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F85D7215E252EB00A2554A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85D7A15E252EB00A2554A /* UIKit.framework in Frameworks */,
+				11F85D7C15E252EB00A2554A /* Foundation.framework in Frameworks */,
+				11F85D7E15E252EB00A2554A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F85D9E15E252EB00A2554A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85DA415E252EB00A2554A /* SenTestingKit.framework in Frameworks */,
+				11F85DA515E252EB00A2554A /* UIKit.framework in Frameworks */,
+				11F85DA615E252EB00A2554A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F85D6A15E252EB00A2554A = {
+			isa = PBXGroup;
+			children = (
+				11F85D7F15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */,
+				11F85DA915E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */,
+				11F85D7815E252EB00A2554A /* Frameworks */,
+				11F85D7615E252EB00A2554A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F85D7615E252EB00A2554A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F85D7515E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo.app */,
+				11F85DA215E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F85D7815E252EB00A2554A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F85D7915E252EB00A2554A /* UIKit.framework */,
+				11F85D7B15E252EB00A2554A /* Foundation.framework */,
+				11F85D7D15E252EB00A2554A /* CoreGraphics.framework */,
+				11F85DA315E252EB00A2554A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F85D7F15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11F85D8815E252EB00A2554A /* PPAppDelegate.h */,
+				11F85D8915E252EB00A2554A /* PPAppDelegate.m */,
+				11F85D8B15E252EB00A2554A /* PPMasterViewController.h */,
+				11F85D8C15E252EB00A2554A /* PPMasterViewController.m */,
+				11F85D8E15E252EB00A2554A /* PPDetailViewController.h */,
+				11F85D8F15E252EB00A2554A /* PPDetailViewController.m */,
+				11F85D9115E252EB00A2554A /* PPMasterViewController_iPhone.xib */,
+				11F85D9415E252EB00A2554A /* PPMasterViewController_iPad.xib */,
+				11F85D9715E252EB00A2554A /* PPDetailViewController_iPhone.xib */,
+				11F85D9A15E252EB00A2554A /* PPDetailViewController_iPad.xib */,
+				11F85D8015E252EB00A2554A /* Supporting Files */,
+			);
+			path = PPPullToRefreshTableViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		11F85D8015E252EB00A2554A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F85D8115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo-Info.plist */,
+				11F85D8215E252EB00A2554A /* InfoPlist.strings */,
+				11F85D8515E252EB00A2554A /* main.m */,
+				11F85D8715E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11F85DA915E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F85DAF15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.h */,
+				11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */,
+				11F85DAA15E252EB00A2554A /* Supporting Files */,
+			);
+			path = PPPullToRefreshTableViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		11F85DAA15E252EB00A2554A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F85DAB15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests-Info.plist */,
+				11F85DAC15E252EB00A2554A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F85D7415E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F85DB415E252EC00A2554A /* Build configuration list for PBXNativeTarget "PPPullToRefreshTableViewControllerDemo" */;
+			buildPhases = (
+				11F85D7115E252EB00A2554A /* Sources */,
+				11F85D7215E252EB00A2554A /* Frameworks */,
+				11F85D7315E252EB00A2554A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPPullToRefreshTableViewControllerDemo;
+			productName = PPPullToRefreshTableViewControllerDemo;
+			productReference = 11F85D7515E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F85DA115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F85DB715E252EC00A2554A /* Build configuration list for PBXNativeTarget "PPPullToRefreshTableViewControllerDemoTests" */;
+			buildPhases = (
+				11F85D9D15E252EB00A2554A /* Sources */,
+				11F85D9E15E252EB00A2554A /* Frameworks */,
+				11F85D9F15E252EB00A2554A /* Resources */,
+				11F85DA015E252EB00A2554A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F85DA815E252EB00A2554A /* PBXTargetDependency */,
+			);
+			name = PPPullToRefreshTableViewControllerDemoTests;
+			productName = PPPullToRefreshTableViewControllerDemoTests;
+			productReference = 11F85DA215E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F85D6C15E252EB00A2554A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = PeterWong;
+			};
+			buildConfigurationList = 11F85D6F15E252EB00A2554A /* Build configuration list for PBXProject "PPPullToRefreshTableViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11F85D6A15E252EB00A2554A;
+			productRefGroup = 11F85D7615E252EB00A2554A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F85D7415E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */,
+				11F85DA115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F85D7315E252EB00A2554A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85D8415E252EB00A2554A /* InfoPlist.strings in Resources */,
+				11F85D9315E252EB00A2554A /* PPMasterViewController_iPhone.xib in Resources */,
+				11F85D9615E252EB00A2554A /* PPMasterViewController_iPad.xib in Resources */,
+				11F85D9915E252EB00A2554A /* PPDetailViewController_iPhone.xib in Resources */,
+				11F85D9C15E252EB00A2554A /* PPDetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F85D9F15E252EB00A2554A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85DAE15E252EB00A2554A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F85DA015E252EB00A2554A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F85D7115E252EB00A2554A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85D8615E252EB00A2554A /* main.m in Sources */,
+				11F85D8A15E252EB00A2554A /* PPAppDelegate.m in Sources */,
+				11F85D8D15E252EB00A2554A /* PPMasterViewController.m in Sources */,
+				11F85D9015E252EB00A2554A /* PPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F85D9D15E252EB00A2554A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F85DB115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F85DA815E252EB00A2554A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F85D7415E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */;
+			targetProxy = 11F85DA715E252EB00A2554A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11F85D8215E252EB00A2554A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85D8315E252EB00A2554A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11F85D9115E252EB00A2554A /* PPMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85D9215E252EB00A2554A /* en */,
+			);
+			name = PPMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		11F85D9415E252EB00A2554A /* PPMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85D9515E252EB00A2554A /* en */,
+			);
+			name = PPMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		11F85D9715E252EB00A2554A /* PPDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85D9815E252EB00A2554A /* en */,
+			);
+			name = PPDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		11F85D9A15E252EB00A2554A /* PPDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85D9B15E252EB00A2554A /* en */,
+			);
+			name = PPDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		11F85DAC15E252EB00A2554A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F85DAD15E252EB00A2554A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F85DB215E252EB00A2554A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F85DB315E252EB00A2554A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F85DB515E252EC00A2554A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11F85DB615E252EC00A2554A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11F85DB815E252EC00A2554A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PPPullToRefreshTableViewControllerDemo.app/PPPullToRefreshTableViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PPPullToRefreshTableViewControllerDemoTests/PPPullToRefreshTableViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		11F85DB915E252EC00A2554A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PPPullToRefreshTableViewControllerDemo.app/PPPullToRefreshTableViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PPPullToRefreshTableViewControllerDemoTests/PPPullToRefreshTableViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F85D6F15E252EB00A2554A /* Build configuration list for PBXProject "PPPullToRefreshTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F85DB215E252EB00A2554A /* Debug */,
+				11F85DB315E252EB00A2554A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F85DB415E252EC00A2554A /* Build configuration list for PBXNativeTarget "PPPullToRefreshTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F85DB515E252EC00A2554A /* Debug */,
+				11F85DB615E252EC00A2554A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11F85DB715E252EC00A2554A /* Build configuration list for PBXNativeTarget "PPPullToRefreshTableViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F85DB815E252EC00A2554A /* Debug */,
+				11F85DB915E252EC00A2554A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F85D6C15E252EB00A2554A /* Project object */;
+}
