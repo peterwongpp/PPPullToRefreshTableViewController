@@ -21,6 +21,8 @@
 //          1. - (void) refreshing
 //              - you should call *didRefresh* inside this method in order to hide the refresh header view
 //      3. you may want to call *willRefresh* to start refreshing in code (this method by default shows the refresh header view, and calls *refreshing* automatically).
+//
+//  3. In your build target's **Link Binbary with Libraries** section, add the QuartzCore.framework
 
 #import <UIKit/UIKit.h>
 
