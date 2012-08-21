@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PPPullToRefreshTableViewController/PPPullToRefreshTableViewController.h"
+#import "PPPullToRefreshTableViewController.h"
 
 @class PPDetailViewController;
 
