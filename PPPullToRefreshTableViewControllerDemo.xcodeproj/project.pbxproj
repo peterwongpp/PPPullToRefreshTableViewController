@@ -24,6 +24,10 @@
 		11F85DA615E252EB00A2554A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F85D7B15E252EB00A2554A /* Foundation.framework */; };
 		11F85DAE15E252EB00A2554A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F85DAC15E252EB00A2554A /* InfoPlist.strings */; };
 		11F85DB115E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */; };
+		D00CC27715E33DAD005CEF2A /* PPPullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CC27615E33DAD005CEF2A /* PPPullToRefreshTableViewController.m */; };
+		D00CC27E15E34673005CEF2A /* pullToRefreshArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CC27C15E34673005CEF2A /* pullToRefreshArrow.png */; };
+		D00CC27F15E34673005CEF2A /* pullToRefreshArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CC27D15E34673005CEF2A /* pullToRefreshArrow@2x.png */; };
+		D00CC28115E34BE3005CEF2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00CC28015E34BE3005CEF2A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,11 @@
 		11F85DAF15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPullToRefreshTableViewControllerDemoTests.h; sourceTree = "<group>"; };
 		11F85DB015E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPullToRefreshTableViewControllerDemoTests.m; sourceTree = "<group>"; };
 		11F85DBA15E2530000A2554A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D00CC27515E33DAD005CEF2A /* PPPullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPPullToRefreshTableViewController.h; path = PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewController/PPPullToRefreshTableViewController.h; sourceTree = "<group>"; };
+		D00CC27615E33DAD005CEF2A /* PPPullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPPullToRefreshTableViewController.m; path = PPPullToRefreshTableViewControllerDemo/PPPullToRefreshTableViewController/PPPullToRefreshTableViewController.m; sourceTree = "<group>"; };
+		D00CC27C15E34673005CEF2A /* pullToRefreshArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pullToRefreshArrow.png; sourceTree = "<group>"; };
+		D00CC27D15E34673005CEF2A /* pullToRefreshArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullToRefreshArrow@2x.png"; sourceTree = "<group>"; };
+		D00CC28015E34BE3005CEF2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00CC28115E34BE3005CEF2A /* QuartzCore.framework in Frameworks */,
 				11F85D7A15E252EB00A2554A /* UIKit.framework in Frameworks */,
 				11F85D7C15E252EB00A2554A /* Foundation.framework in Frameworks */,
 				11F85D7E15E252EB00A2554A /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +101,8 @@
 		11F85D6A15E252EB00A2554A = {
 			isa = PBXGroup;
 			children = (
+				D00CC28015E34BE3005CEF2A /* QuartzCore.framework */,
+				D00CC26A15E33D35005CEF2A /* PPPullToRefreshTableViewController */,
 				11F85DBA15E2530000A2554A /* .gitignore */,
 				11F85D7F15E252EB00A2554A /* PPPullToRefreshTableViewControllerDemo */,
 				11F85DA915E252EB00A2554A /* PPPullToRefreshTableViewControllerDemoTests */,
@@ -165,6 +177,25 @@
 				11F85DAC15E252EB00A2554A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00CC26A15E33D35005CEF2A /* PPPullToRefreshTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D00CC26C15E33D41005CEF2A /* images */,
+				D00CC27515E33DAD005CEF2A /* PPPullToRefreshTableViewController.h */,
+				D00CC27615E33DAD005CEF2A /* PPPullToRefreshTableViewController.m */,
+			);
+			name = PPPullToRefreshTableViewController;
+			sourceTree = "<group>";
+		};
+		D00CC26C15E33D41005CEF2A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D00CC27C15E34673005CEF2A /* pullToRefreshArrow.png */,
+				D00CC27D15E34673005CEF2A /* pullToRefreshArrow@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +275,8 @@
 				11F85D9615E252EB00A2554A /* PPMasterViewController_iPad.xib in Resources */,
 				11F85D9915E252EB00A2554A /* PPDetailViewController_iPhone.xib in Resources */,
 				11F85D9C15E252EB00A2554A /* PPDetailViewController_iPad.xib in Resources */,
+				D00CC27E15E34673005CEF2A /* pullToRefreshArrow.png in Resources */,
+				D00CC27F15E34673005CEF2A /* pullToRefreshArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +315,7 @@
 				11F85D8A15E252EB00A2554A /* PPAppDelegate.m in Sources */,
 				11F85D8D15E252EB00A2554A /* PPMasterViewController.m in Sources */,
 				11F85D9015E252EB00A2554A /* PPDetailViewController.m in Sources */,
+				D00CC27715E33DAD005CEF2A /* PPPullToRefreshTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +515,7 @@
 				11F85DB615E252EC00A2554A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11F85DB715E252EC00A2554A /* Build configuration list for PBXNativeTarget "PPPullToRefreshTableViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +524,7 @@
 				11F85DB915E252EC00A2554A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

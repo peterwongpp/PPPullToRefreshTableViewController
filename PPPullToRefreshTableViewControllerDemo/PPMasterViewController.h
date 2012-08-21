@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PPPullToRefreshTableViewController/PPPullToRefreshTableViewController.h"
 
 @class PPDetailViewController;
 
-@interface PPMasterViewController : UITableViewController
+@interface PPMasterViewController : PPPullToRefreshTableViewController
 
 @property (strong, nonatomic) PPDetailViewController *detailViewController;
 

@@ -142,4 +142,20 @@
     }
 }
 
+#pragma mark - Pull to refresh methods
+
+- (void) insertNewObjectAndDidRefresh
+{
+    [self insertNewObject:nil];
+    [self didRefresh];
+}
+
+- (void) refreshing
+{
+    // delay 2 seconds to demonstrate slow loading
+    // remember to call didRefresh after the loading is done! or else the header will not disappear.
+    
+    [self performSelector:@selector(insertNewObjectAndDidRefresh) withObject:nil afterDelay:2.0];
+}
+
 @end
