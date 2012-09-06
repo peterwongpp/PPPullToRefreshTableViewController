@@ -71,6 +71,7 @@
 		D00CC28015E34BE3005CEF2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D00CC28615E37222005CEF2A /* PPPullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPullToRefreshTableViewController.h; sourceTree = "<group>"; };
 		D00CC28715E37223005CEF2A /* PPPullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPullToRefreshTableViewController.m; sourceTree = "<group>"; };
+		D0D5AB6915F8579B008E67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		11F85D6A15E252EB00A2554A = {
 			isa = PBXGroup;
 			children = (
+				D0D5AB6915F8579B008E67F1 /* README.md */,
 				D00CC28015E34BE3005CEF2A /* QuartzCore.framework */,
 				D00CC26A15E33D35005CEF2A /* PPPullToRefreshTableViewController */,
 				11F85DBA15E2530000A2554A /* .gitignore */,
